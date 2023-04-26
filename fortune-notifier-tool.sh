@@ -8,5 +8,6 @@ if [ $len -gt 0 ]; then
     echo $msg
     echo
 else
+    sleep 5s
     notify-send -w "$msg" --icon=dialog-information --category=im
 fi
