@@ -11,6 +11,3 @@ else
 fi
 cp $script $wrk_dir$script
 chmod 744 $wrk_dir$script
-
-#todo creating autostart service (systemd only)
-#todo $UID exists btw
