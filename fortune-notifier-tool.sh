@@ -1,8 +1,8 @@
 #!/bin/bash
 tty_str=$(tty | grep tty)
 len=${#tty_str}
-msg=$(/usr/bin/fortune)
+msg=$($(which fortune))
 
 if [ $len -eq 0 ]; then
-    notify-send -w "$msg" --icon=dialog-information --category=im
+    notify-send -w --icon=dialog-information --category=im "$msg"
 fi
