@@ -39,3 +39,5 @@ for text in "${array[@]}"
 do
 echo $text >> $autostart_dir$name.desktop
 done
+
+echo Installed!
