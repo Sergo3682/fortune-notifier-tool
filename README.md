@@ -11,6 +11,7 @@ Installation
   ```
 > After installation, you can delete all the files you downloaded from this repository
     
+    
 Uninstallation
 -
 - If the default installation path was changed, make sure that the `uninstall.sh` file has the same path as the `install.sh` file
