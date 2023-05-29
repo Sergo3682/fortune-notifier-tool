@@ -17,6 +17,23 @@ array=(
 "Version=1.0" "Type=Application" "Name=$name" "Comment=" 
 "Exec=$wrk_dir$script" "Icon=" "Path=" "Terminal=false" "StartupNotify=false"
 )
+
+if [ -d $"$HOME/.config/" ]; then
+    echo $"$HOME/.config/" is alredy exists
+else
+    echo $"$HOME/.config/" does not exists
+    echo creating...
+    mkdir $"$HOME/.config/"
+fi
+
+if [ -d $autostart_dir ]; then
+    echo $autostart_dir is alredy exists
+else
+    echo $autostart_dir does not exists
+    echo creating...
+    mkdir $autostart_dir
+fi
+
 echo [Desktop Entry] > $autostart_dir$name.desktop
 for text in "${array[@]}"
 do
