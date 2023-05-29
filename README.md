@@ -1,6 +1,5 @@
 fortune-notifier-tool - is a utility for displaying a random message from the fortune program as a notification after system startup.
 =
-***
 Installation
 -
 - Make sure that the [`fortune`](https://en.wikipedia.org/wiki/Fortune_(Unix)) package is installed on your PC
@@ -16,4 +15,3 @@ Uninstallation
 ``` bash
   sh uninstall.sh
   ```
-***
