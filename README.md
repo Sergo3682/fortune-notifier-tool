@@ -9,6 +9,7 @@ Installation
   ./install.sh
   ```
 > After installation, you can delete all the files you downloaded from this repository
+  Example: msg=$($(which fortune) ascii-art)
     
 Uninstallation
 -
