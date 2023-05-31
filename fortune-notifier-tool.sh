@@ -5,7 +5,7 @@ regex_res=$(grep -E "\-\w, \-\-\wait" <<< $man)
 len_match=${#regex_res}
 
 if [ "$len_match" -gt 0 ]; then
-    notify-send -w --icon=dialog-information "$msg"
+    notify-send -w --icon=dialog-information --category=im "$msg"
 else
-    notify-send --icon=dialog-information "$msg"
+    notify-send --icon=dialog-information --category=im "$msg"
 fi
