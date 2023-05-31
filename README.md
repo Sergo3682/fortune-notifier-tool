@@ -25,5 +25,5 @@ Uninstallation
 Stability
 -
 - This tool works great on xfce4 and KDE Plasma
-- it works well on GNOME
+- It works well on GNOME
 - The `fortune-notifier-tool.sh` script works on Cinnamon, but it doesn't start after system boot
