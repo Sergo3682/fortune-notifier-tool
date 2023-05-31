@@ -3,9 +3,9 @@ name=$"fortune-notifier-tool"
 wrk_dir=$"$HOME/.$name/"
 script=$"$name.sh"
 if [ -d $wrk_dir ]; then
-    echo $wrk_dir is already exists
+    echo $wrk_dir already exists
 else
-    echo $wrk_dir does not exists
+    echo $wrk_dir does not exist
     echo creating...
     mkdir $wrk_dir
 fi
@@ -19,17 +19,17 @@ array=(
 )
 
 if [ -d $"$HOME/.config/" ]; then
-    echo $"$HOME/.config/" is already exists
+    echo $"$HOME/.config/" already exists
 else
-    echo $"$HOME/.config/" does not exists
+    echo $"$HOME/.config/" does not exist
     echo creating...
     mkdir $"$HOME/.config/"
 fi
 
 if [ -d $autostart_dir ]; then
-    echo $autostart_dir is already exists
+    echo $autostart_dir already exists
 else
-    echo $autostart_dir does not exists
+    echo $autostart_dir does not exist
     echo creating...
     mkdir $autostart_dir
 fi
