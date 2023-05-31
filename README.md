@@ -4,7 +4,11 @@ Installation
 -
 - Make sure that the [`fortune`](https://en.wikipedia.org/wiki/Fortune_(Unix)) package is installed on your PC
 - For custom command output, modify the variable `msg` in the file `fortune-notifier-tool.sh` according to the [`man fortune`](https://linux.die.net/man/6/fortune)
-> Example: msg=$($(which fortune) ascii-art)
+> Example: 
+>```bash
+>msg=$($(which fortune) ascii-art)
+>```
+
  ```bash 
   chmod 744 install.sh
   ./install.sh
@@ -18,6 +22,8 @@ Uninstallation
   chmod 744 uninstall.sh
   ./uninstall.sh
   ```
-
-
-
+Stability
+-
+- This tool works great on xfce4 and KDE Plasma
+- it works well on GNOME
+- The `fortune-notifier-tool.sh` script works on Cinnamon, but it doesn't start after system boot
