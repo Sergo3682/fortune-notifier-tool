@@ -1,4 +1,4 @@
-fortune-notifier-tool - is a utility for displaying a random message from the fortune program as a notification after system startup.
+fortune-notifier-tool - is a utility for displaying a random message from the fortune program as a notification after the user logs in.
 =
 
 ![](doc/example.png "example")
@@ -25,8 +25,4 @@ Uninstallation
   chmod 744 uninstall.sh
   ./uninstall.sh
   ```
-Stability
--
-- This tool works great on xfce4 and KDE Plasma
-- It works well on GNOME
-- The `fortune-notifier-tool.sh` script works on Cinnamon, but it doesn't start after system boot
+
